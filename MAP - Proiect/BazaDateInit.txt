@@ -1,0 +1,11 @@
+10
+Popescu Ion 1860412261123 CEO 7000
+Anghel Alina 2900101260012 Contabil 5000
+Cimpean Adrian 5000112260031 CEO 6000
+Gheorge Vasile 156192890 Portar 1500
+Marcu Elena 2162531453 Developer 4000
+Pop Alexandru 11213561536 Developer 4500
+Baciu Marcel 1126543561 Curatator 2000
+Bacali Mihaela 29878167631 Asistent 4500
+Varga Aurel 13253654 Contabil 3500
+Precup Patriciu 12123213 CoFounder 5500

@@ -1,0 +1,248 @@
+05-05-2019 13:49:57 Baza de date a fost incarcata
+05-05-2019 13:50:35 Baza de date a fost incarcata
+05-05-2019 14:00:02 Baza de date a fost incarcata
+05-05-2019 14:00:16 Angajat sters:(CNP) 5000112260031
+05-05-2019 14:00:30 Angajat adaugat: Cimpean Adrian
+05-05-2019 14:00:55 Modificare angajat
+05-05-2019 14:03:38 Baza de date a fost incarcata
+05-05-2019 14:03:40 Baza date afisata
+05-05-2019 14:03:50 Angajat sters:(CNP) 5000112260031
+05-05-2019 14:04:09 Angajat adaugat: Cimpean Adrian
+05-05-2019 14:06:17 Baza date afisata
+05-05-2019 14:06:45 Angajat modificat:(CNP) 5000112260031
+05-05-2019 14:07:00 Angajat sters:(CNP) 5000112260031
+05-05-2019 14:09:30 Baza de date a fost incarcata
+05-05-2019 14:09:34 Baza de date salvata
+06-05-2019 12:48:09 Baza de date a fost incarcata
+06-05-2019 12:48:45 Baza de date a fost incarcata
+06-05-2019 12:48:47 Baza date afisata
+06-05-2019 12:49:22 Angajat adaugat: aaa aaa
+06-05-2019 12:49:35 Eroare-Modificare angajat inexistent
+06-05-2019 12:50:10 Angajat modificat:(CNP) 5000112260031
+06-05-2019 12:50:14 Baza date afisata
+07-05-2019 20:09:07 Baza de date a fost incarcata
+07-05-2019 20:09:17 Angajat adaugat: a a
+07-05-2019 20:09:22 Angajat sters:(CNP) 1
+07-05-2019 20:09:24 Baza date afisata
+07-05-2019 20:09:40 Angajat adaugat: Cimpean Adrian
+07-05-2019 20:09:43 Baza date afisata
+07-05-2019 20:09:51 Angajat sters:(CNP) 5000112260031
+07-05-2019 20:09:54 Baza date afisata
+07-05-2019 20:10:15 Baza de date salvata
+07-05-2019 20:25:34 Baza de date a fost incarcata
+07-05-2019 20:25:35 Baza date afisata
+07-05-2019 20:25:49 Angajat adaugat: Cimpean Adrian
+07-05-2019 20:26:22 Baza de date salvata
+07-05-2019 20:26:24 Baza date afisata
+07-05-2019 20:27:37 Baza de date a fost incarcata
+07-05-2019 20:27:53 Baza date afisata
+07-05-2019 20:28:14 Angajat sters:(CNP) 5000112260031
+07-05-2019 20:28:15 Baza date afisata
+07-05-2019 20:28:22 Angajat adaugat: a a
+07-05-2019 20:28:31 Baza date afisata
+07-05-2019 20:28:41 Angajat sters:(CNP) 1
+07-05-2019 20:28:42 Baza date afisata
+07-05-2019 20:41:18 Baza de date a fost incarcata
+07-05-2019 20:41:29 Angajat cautat dupa CNP: 5000112260031
+07-05-2019 21:10:10 Baza de date a fost incarcata
+07-05-2019 21:12:38 Baza de date a fost incarcata
+07-05-2019 21:12:46 Angajat gasit dupa nume: Cimpean
+07-05-2019 21:21:09 Backup efectuat
+07-05-2019 21:40:45 Baza de date salvata
+07-05-2019 21:40:48 Backup efectuat
+07-05-2019 21:45:33 Baza de date a fost incarcata
+07-05-2019 21:45:55 Angajat adaugat: Cimpean Adrian
+07-05-2019 21:45:58 Baza date afisata
+07-05-2019 21:46:09 Angajat sters:(CNP) 5000112260031
+07-05-2019 21:46:10 Baza date afisata
+07-05-2019 21:46:15 Backup efectuat
+07-05-2019 21:47:32 Baza de date a fost incarcata
+07-05-2019 21:47:33 Baza date afisata
+07-05-2019 21:47:38 Baza de date salvata
+07-05-2019 21:47:41 Baza de date a fost incarcata
+07-05-2019 21:47:42 Baza date afisata
+07-05-2019 21:47:45 Backup efectuat
+08-05-2019 16:06:25 Baza de date a fost incarcata
+08-05-2019 16:06:30 Baza date afisata
+08-05-2019 16:06:39 Angajat adaugat: a a
+08-05-2019 16:06:40 Baza date afisata
+08-05-2019 16:06:45 Baza de date salvata
+08-05-2019 16:06:49 Backup efectuat
+08-05-2019 17:07:02 Baza de date a fost incarcata
+08-05-2019 17:07:04 Baza date afisata
+08-05-2019 17:07:16 Baza date afisata
+08-05-2019 17:07:32 Backup efectuat
+08-05-2019 17:07:38 Baza de date a fost incarcata
+08-05-2019 17:07:41 Angajat sters:(CNP) 1
+08-05-2019 17:07:42 Baza date afisata
+08-05-2019 17:07:59 Angajat adaugat: Cimpean Adrian
+08-05-2019 17:08:05 Baza date afisata
+08-05-2019 17:08:15 Baza date afisata
+08-05-2019 17:08:25 Baza de date salvata
+08-05-2019 17:08:27 Backup efectuat
+08-05-2019 17:12:09 Baza de date a fost incarcata
+08-05-2019 17:12:15 Angajati ordonati dupa nume - crescator
+08-05-2019 17:12:21 Backup efectuat
+08-05-2019 17:26:08 Baza de date a fost incarcata
+08-05-2019 17:26:09 Baza date afisata
+08-05-2019 17:26:16 Baza date afisata
+08-05-2019 17:27:30 Baza de date a fost incarcata
+08-05-2019 17:27:31 Baza date afisata
+08-05-2019 17:27:40 Baza date afisata
+08-05-2019 17:27:47 Angajati ordonati dupa nume - crescator
+08-05-2019 17:27:49 Baza date afisata
+08-05-2019 17:27:58 Angajati ordonati dupa nume - crescator
+08-05-2019 17:28:01 Baza date afisata
+08-05-2019 17:28:14 Angajati ordonati dupa nume - crescator
+08-05-2019 17:28:17 Baza date afisata
+08-05-2019 17:28:26 Baza date afisata
+08-05-2019 17:28:36 Angajati ordonati dupa nume - crescator
+08-05-2019 17:28:42 Baza date afisata
+08-05-2019 17:28:51 Backup efectuat
+08-05-2019 17:33:45 Backup efectuat
+08-05-2019 17:48:45 Baza de date a fost incarcata
+08-05-2019 17:48:46 Baza date afisata
+08-05-2019 17:48:55 Angajati ordonati dupa nume - crescator
+08-05-2019 17:48:58 Baza date afisata
+08-05-2019 17:49:05 Angajati ordonati descrescator
+08-05-2019 17:49:09 Baza date afisata
+08-05-2019 17:49:17 Baza de date salvata
+08-05-2019 17:49:20 Backup efectuat
+09-05-2019 20:03:40 Baza de date a fost incarcata
+09-05-2019 20:03:41 Baza date afisata
+09-05-2019 20:04:00 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:00 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:00 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:00 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:00 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:02 Baza date afisata
+09-05-2019 20:04:10 Angajati ordonati dupa nume - crescator
+09-05-2019 20:04:13 Baza date afisata
+09-05-2019 20:04:20 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:20 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:20 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:20 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:20 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:04:24 Baza date afisata
+09-05-2019 20:04:30 Backup efectuat
+09-05-2019 20:33:35 Baza de date a fost incarcata
+09-05-2019 20:33:36 Baza date afisata
+09-05-2019 20:33:46 Angajati ordonati dupa nume - crescator
+09-05-2019 20:33:50 Baza date afisata
+09-05-2019 20:34:04 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:34:04 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:34:04 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:34:04 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:34:04 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:34:09 Baza date afisata
+09-05-2019 20:34:20 Backup efectuat
+09-05-2019 20:36:49 Baza de date a fost incarcata
+09-05-2019 20:36:51 Baza date afisata
+09-05-2019 20:37:02 Angajati ordonati dupa nume - crescator
+09-05-2019 20:37:07 Baza date afisata
+09-05-2019 20:37:16 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:37:16 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:37:16 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:37:16 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:37:16 Angajati ordonati dupa nume - descrescator
+09-05-2019 20:37:18 Baza date afisata
+09-05-2019 20:37:26 Angajati ordonati dupa nume - crescator
+09-05-2019 20:37:29 Baza date afisata
+09-05-2019 20:37:40 Backup efectuat
+11-05-2019 12:55:58 Baza de date a fost incarcata
+11-05-2019 12:55:59 Baza date afisata
+11-05-2019 12:56:04 Angajati ordonati dupa nume - crescator
+11-05-2019 12:56:06 Baza date afisata
+11-05-2019 12:56:16 Angajat gasit dupa nume: Anghel
+11-05-2019 12:56:22 Angajat gasit dupa nume: Popescu
+11-05-2019 12:56:28 Angajat gasit dupa nume: Cimpean
+11-05-2019 12:56:39 Angajat gasit dupa nume: Cimpean
+11-05-2019 12:56:45 Angajat gasit dupa nume: Anghel
+11-05-2019 12:56:49 Angajat gasit dupa nume: Popescu
+11-05-2019 12:57:17 Baza date afisata
+11-05-2019 12:57:21 Angajati ordonati dupa nume - descrescator
+11-05-2019 12:57:21 Angajati ordonati dupa nume - descrescator
+11-05-2019 12:57:21 Angajati ordonati dupa nume - descrescator
+11-05-2019 12:57:21 Angajati ordonati dupa nume - descrescator
+11-05-2019 12:57:21 Angajati ordonati dupa nume - descrescator
+11-05-2019 12:57:27 Baza date afisata
+11-05-2019 12:57:36 Angajati ordonati dupa nume - crescator
+11-05-2019 12:57:38 Baza date afisata
+11-05-2019 12:57:52 Angajat sters:(CNP) 5000112260031
+11-05-2019 12:57:54 Baza date afisata
+11-05-2019 12:58:04 Baza date afisata
+11-05-2019 12:58:18 Angajat adaugat: Cimpean Adrian
+11-05-2019 12:58:21 Baza date afisata
+11-05-2019 12:58:26 Angajati ordonati dupa nume - crescator
+11-05-2019 12:58:29 Baza date afisata
+11-05-2019 12:59:01 Angajat modificat:(CNP) 5000112260031
+11-05-2019 12:59:03 Baza date afisata
+11-05-2019 12:59:08 Baza de date salvata
+11-05-2019 12:59:16 Backup efectuat
+11-05-2019 13:04:19 Baza de date a fost incarcata
+11-05-2019 13:04:21 Baza date afisata
+11-05-2019 13:04:46 Angajat modificat:(CNP) 5000112260031
+11-05-2019 13:04:50 Baza date afisata
+11-05-2019 13:05:11 Backup efectuat
+11-05-2019 14:13:03 Baza de date a fost incarcata
+11-05-2019 14:13:15 Baza date afisata
+11-05-2019 14:13:24 Angajati ordonati dupa nume - descrescator
+11-05-2019 14:13:27 Baza date afisata
+11-05-2019 14:13:44 Backup efectuat
+11-05-2019 14:15:09 Baza de date a fost incarcata
+11-05-2019 14:15:13 Baza date afisata
+11-05-2019 14:15:48 Baza date afisata
+11-05-2019 14:15:54 Backup efectuat
+11-05-2019 14:17:22 Baza de date a fost incarcata
+11-05-2019 14:17:26 Angajati ordonati dupa nume - descrescator
+11-05-2019 14:17:43 Baza de date salvata
+11-05-2019 14:17:45 Backup efectuat
+11-05-2019 14:33:51 Baza de date a fost incarcata
+11-05-2019 14:33:54 Baza date afisata
+11-05-2019 14:33:57 Afisare angajati cu salar peste pragul de (5000)
+11-05-2019 14:34:01 Afisare angajati cu salar peste pragul de (4000)
+11-05-2019 14:34:04 Afisare angajati cu salar peste pragul de (7000)
+11-05-2019 14:34:10 Afisare media salariilor a 1 angajati
+11-05-2019 14:34:13 Afisare media salariilor a 2 angajati
+11-05-2019 14:34:15 Afisare media salariilor a 3 angajati
+11-05-2019 14:34:19 Backup efectuat
+14-05-2019 10:37:03 Backup efectuat
+18-05-2019 17:28:11 Baza de date a fost incarcata
+18-05-2019 17:28:22 Baza date afisata
+18-05-2019 17:28:27 Afisare angajati cu salar peste pragul de (5000)
+18-05-2019 17:28:36 Backup efectuat
+26-05-2019 20:52:57 Baza de date a fost incarcata
+26-05-2019 20:53:09 Angajat adaugat: Butu Sergiu
+26-05-2019 20:53:13 Baza date afisata
+26-05-2019 20:53:28 Afisare media salariilor a 3 angajati
+26-05-2019 20:53:39 Afisare angajati cu salar peste pragul de (5000)
+26-05-2019 20:53:47 Angajati ordonati dupa nume - crescator
+26-05-2019 20:53:50 Baza date afisata
+26-05-2019 20:53:56 Angajati ordonati dupa nume - descrescator
+26-05-2019 20:53:58 Baza date afisata
+26-05-2019 20:54:07 Angajat sters:(CNP) 1
+26-05-2019 20:54:10 Baza date afisata
+26-05-2019 20:54:22 Angajat adaugat: a a
+26-05-2019 20:54:27 Angajat gasit dupa CNP: 1
+26-05-2019 20:54:30 Angajat gasit dupa nume: a
+26-05-2019 20:54:33 Angajat sters:(CNP) 1
+26-05-2019 20:54:38 Angajat adaugat: a a
+26-05-2019 20:54:46 Angajat modificat:(CNP) 1
+26-05-2019 20:54:49 Baza date afisata
+26-05-2019 20:55:00 Backup efectuat
+28-05-2019 18:11:58 Baza de date a fost incarcata
+28-05-2019 18:12:16 Baza date afisata
+28-05-2019 18:12:33 Backup efectuat
+28-05-2019 18:30:19 Baza de date a fost incarcata
+28-05-2019 18:30:22 Baza date afisata
+28-05-2019 18:30:28 Backup efectuat
+28-05-2019 18:43:27 Baza de date a fost incarcata
+28-05-2019 18:43:29 Baza date afisata
+30-05-2019 09:48:54 Baza de date a fost incarcata
+30-05-2019 09:48:56 Baza date afisata
+30-05-2019 09:49:01 Afisare angajati cu salar peste pragul de 2000
+30-05-2019 09:49:11 Angajati ordonati dupa nume - crescator
+30-05-2019 09:49:14 Baza date afisata
+30-05-2019 09:49:24 Angajati ordonati dupa nume - descrescator
+30-05-2019 09:49:27 Baza date afisata
+09-06-2019 18:45:45 Baza de date a fost incarcata
