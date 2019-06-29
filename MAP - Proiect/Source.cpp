@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define  MAX 512
+#pragma warning(disable : 4996) 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,11 +9,90 @@
 #include <ctype.h>
 #include <Windows.h>
 #include <stdarg.h>
+#include "sqlite3.h"
 
 int n; //nr de angajati
 FILE* log_file;
+char* sql = new char[350];
+char *zErrMsg=0;
+int rc;
 
 typedef int (TIP_PF)(const void*, const void*);
+
+sqlite3* opendb(sqlite3 *db) {
+	rc = sqlite3_open("Database.db", &db);
+
+	if (rc) {
+		printf("Can't open database: %s\n", sqlite3_errmsg(db));
+		return 0;
+	}
+	else {
+		printf("Database opened succesfully!\n");
+		return db;
+	}
+}
+
+static int callback(void* NotUsed, int argc, char** argv, char** azColName) {
+	int i;
+	for (i = 0; i < argc; i++) {
+		printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+	}
+	printf("\n");
+
+	return 0;
+}
+
+void CreateTable(sqlite3* db) {
+	strcpy(sql,"CREATE TABLE ANGAJATI("\
+		"ID INT PRIMARY KEY	NOT NULL,"\
+		"NUME TEXT			NOT NULL,"\
+		"PRENUME TEXT		NOT NULL,"\
+		"CNP TEXT			NOT NULL,"\
+		"FUNCTIE TEXT		NOT NULL,"\
+		"SALAR INT			NOT NULL);");
+
+	rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+
+	if (rc != SQLITE_OK) {
+		printf("SQL error: %s\n", zErrMsg);
+		sqlite3_free(zErrMsg);
+	}
+	else {
+		printf("Tabel created succesfully!\n");
+	}
+}
+
+void Insert(sqlite3* db) {
+	strcpy(sql, "INSERT INTO ANGAJATI (ID,NUME,PRENUME,CNP,FUNCTIE,SALAR)"\
+		"VALUES(1,'Popescu', 'Ion', '1860412261123','CEO',7000);"\
+		"INSERT INTO ANGAJATI (ID,NUME,PRENUME,CNP,FUNCTIE,SALAR)"\
+		"VALUES (2,'Anghel','Alina','2900101260012','Contabil',3500);"\
+		"INSERT INTO ANGAJATI (ID,NUME,PRENUME,CNP,FUNCTIE,SALAR)"\
+		"VALUES (3,'Cimpean','Adrian','5000112260031','CEO',7000);");
+	rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+
+	if (rc != SQLITE_OK) {
+		printf("SQL error: %s\n", zErrMsg);
+		sqlite3_free(zErrMsg);
+	}
+	else {
+		printf("Records created succesfully\n");
+	}
+}
+
+void Select(sqlite3* db) {
+	strcpy(sql, "SELECT * FROM ANGAJATI");
+
+	rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+
+	if (rc != SQLITE_OK) {
+		printf("SQL error: %s\n", zErrMsg);
+		sqlite3_free(zErrMsg);
+	}
+	else {
+		printf("Operation done succesfully\n");
+	}
+}
 
 int comparare(const void* a, const void* b) {
 	return (*(int*)a) - (*(int*)b);
@@ -295,7 +375,11 @@ int main() {
 	int meniu, submeniu;
 	FILE* db_init;
 	FILE* backup;
+	sqlite3* db=NULL;
 	
+	db=opendb(db);
+	//CreateTable(db);
+	//Insert(db);
 	db_init = fopen("BazaDateInit.txt", "rt");
 
 	if (db_init == NULL) {
@@ -323,7 +407,7 @@ int main() {
 
 
 	//incarca baza de date
-	load_db(db_init, vAngajati);
+	//load_db(db_init, vAngajati);
 	system("pause");
 		
 
@@ -349,7 +433,7 @@ int main() {
 			do {
 				system("cls");
 				printf("1. Toti angajatii\n");
-				printf("2. Angajatii cu salar peste ...\n");
+				printf("2. Angajatii cu salar peste 5000\n");
 				printf("3. Inapoi\n");
 				printf("Introduceti optiunea:");
 				scanf("%d", &submeniu);
@@ -357,17 +441,27 @@ int main() {
 				switch (submeniu) {
 				case 1:
 					//afisare toti angajatiii
-					print_db(vAngajati);
-					
+					//print_db(vAngajati);
+					Select(db);
 					system("pause");
 					break;
 
 				case 2:
-					//afisare angajati cu salar peste...
-					printf("Introduceti pragul:");
-					scanf("%d", &prag);
-					afisare_angajati_salar(vAngajati, prag);
-					
+					//afisare angajati cu salar peste 5000
+					//printf("Introduceti pragul:");
+					//scanf("%d", &prag);
+					//afisare_angajati_salar(vAngajati, prag);
+					strcpy(sql, "SELECT * FROM ANGAJATI WHERE SALAR>5000;");
+					rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+
+					if (rc != SQLITE_OK) {
+						printf("SQL error: %s\n", zErrMsg);
+						sqlite3_free(zErrMsg);
+					}
+					else {
+						printf("Operation done succesfully\n");
+					}
+
 					system("pause");
 					break;
 				}
@@ -503,9 +597,20 @@ int main() {
 				switch (submeniu) {
 				case 1:
 					//crescator
-					qsort(vAngajati, n, sizeof(Angajat), compara_nume);
-					printf("Angajatii au fost ordonati dupa nume!\n");
-					
+					//qsort(vAngajati, n, sizeof(Angajat), compara_nume);
+					//printf("Angajatii au fost ordonati dupa nume!\n");
+					strcpy(sql, "SELECT * FROM ANGAJATI ORDER BY NUME;");
+
+					rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+
+					if (rc != SQLITE_OK) {
+						printf("SQL error: %s\n", zErrMsg);
+						sqlite3_free(zErrMsg);
+					}
+					else {
+						printf("Operation done succesfully\n");
+					}
+
 					strcpy(msg, "Angajati ordonati dupa nume - crescator");
 					LogEvent(log_file, msg);
 					system("pause");
@@ -513,8 +618,19 @@ int main() {
 
 				case 2:
 					//descrescator
-					ordonare_descrescator(vAngajati, n);
-					printf("Angajtii au fost ordonati descrescator!\n");
+					//ordonare_descrescator(vAngajati, n);
+					//printf("Angajtii au fost ordonati descrescator!\n");
+
+					strcpy(sql, "SELECT * FROM ANGAJATI ORDER BY NUME DESC;");
+					rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
+
+					if (rc != SQLITE_OK) {
+						printf("SQL error: %s\n", zErrMsg);
+						sqlite3_free(zErrMsg);
+					}
+					else {
+						printf("Operation done succesfully\n");
+					}
 
 					strcpy(msg, "Angajati ordonati dupa nume - descrescator");
 					LogEvent(log_file, msg);
@@ -565,5 +681,6 @@ int main() {
 		}//sf switch
 	} while (meniu != 9);
 	
+	sqlite3_close(db);
 	return 0;
 }
